@@ -9,9 +9,9 @@
 
 📊 **Overview** 
 
-Welcome to the repository showcasing our company's financial journey from 2018 to 2023. 
+🔴 Welcome to the repository showcasing our company's financial journey from 2018 to 2023. 
 
-The Income Statement provides insights into our revenue, expenses, and overall financial health.
+🔴 The Income Statement provides insights into our revenue, expenses, and overall financial health.
 
 **Here's a quick look at our Income Statement trends** :
 
@@ -51,15 +51,21 @@ The Income Statement provides insights into our revenue, expenses, and overall f
 💼🌐 **Here's a breakdown of the key financial formulas that shaped our journey from 2018 to 2023**:
 
 🔶 **Gross Profit** = Total Revenue - Cost of Goods Sold
+
 🔶 **Operating Income** = Gross Profit - Selling, general & administrative - Depreciation & Amortization
+
 🔶 **Pretax income** = Operating Income - Interest expense
+
 🔶 **Net Income** = Pretax Income - Taxes
 
+
 🟢 **Net Income above 1800 ? (IF Statement) and Conditional Formatting**
+
  =IF(Net Income > 1800,"YES","NO")
 
 🔵 **Net Income for Year ? 
  Insightful Analysis with XLOOKUP** 
+ 
  =XLOOKUP(2023,YearRange,NetincomeRange)
 
 🔴 **Metrics Formulae** :
